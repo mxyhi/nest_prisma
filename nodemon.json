@@ -1,0 +1,17 @@
+{
+    "restartable": "rs",
+    "verbose": true,
+    "watch": [
+        "./src/",
+        "./prisma/"
+    ],
+    "ignore": [
+        "test/*.spec.ts"
+    ],
+    "delay": "1000",
+    "exec": "ts-node ./src/main.ts",
+    "ext": "ts js ejs yml json",
+    "events":{
+        "restart": "clear"
+    }
+}

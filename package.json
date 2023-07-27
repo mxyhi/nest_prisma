@@ -12,6 +12,7 @@
     }
   },
   "scripts": {
+    "ts-node:dev": "nodemon --config ./nodemon.json",
     "prisma-merge": "prisma-merge -b ./prisma/base.prisma -o ./prisma/schema.prisma",
     "prisma-import": "prisma-import -f",
     "prisma:merge": "npm run prisma-merge && npm run prisma-import",
