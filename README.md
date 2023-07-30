@@ -2,6 +2,8 @@
 
 #### 支持prisma多文件模块开发，解决prisma单文件过大且难以维护，学习之前请看一下官方是否更新模块开发功能
 
+[github](https://github.com/mxyhi/nest_prisma.git)
+
 ## 1. 新建项目
 
 ```sh
